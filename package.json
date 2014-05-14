@@ -1,0 +1,51 @@
+{
+  "name": "hash-o-matic",
+  "version": "0.1.0",
+  "description": "Pass objects or variables and the generated hash will be the same regardless of the order the parameters were passed.",
+  "main": "lib/hashomatic.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/trentmillar/hash-o-matic.git"
+  },
+  "keywords": [
+    "hashing",
+    "md5",
+    "hash",
+    "encrypt",
+    "security",
+    "fast",
+    "hash-o-matic",
+    "sorted",
+    "ordered",
+    "order"
+  ],
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Trent Millar"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/trentmillar/hash-o-matic/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "md5-o-matic": "~0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "should": "~3.3.1",
+    "md5-o-matic": "~0.1.0"
+  },
+  "readme": "# hash-o-matic\nHash up an unlimited number of values, but the problem is that the final hashed value is dependent on the order in which these values are added. What hash-o-matic does is it will order the parameters by the parameter's name before hashing. This is useful if you frequently hash the same variables through-out your app(s) but can't recall the order in which the values were added. The only real catch is the variables must have the same naming throughout your code.\n",
+  "bugs": {
+    "url": "https://github.com/trentmillar/hash-o-matic/issues"
+  },
+  "homepage": "https://github.com/trentmillar/hash-o-matic"
+}

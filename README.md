@@ -9,7 +9,7 @@ Hash up an unlimited number of values, but the problem is that the final hashed 
 	
 ## Usage
 
-* Look at the unit tests for more examples
+	/* look at the unit tests for more examples */
 	
 	var hashomatic = require('hash-o-matic');	
 	var caseinsensitive = true;

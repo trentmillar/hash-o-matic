@@ -1,6 +1,6 @@
 {
   "name": "hash-o-matic",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pass objects or variables and the generated hash will be the same regardless of the order the parameters were passed.",
   "main": "lib/hashomatic.js",
   "directories": {
